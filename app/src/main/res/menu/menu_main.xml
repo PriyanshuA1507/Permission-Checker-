@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.permissionclassifier.MainActivity">
+    <item
+        android:id="@+id/menu_excel_exporter"
+        android:orderInCategory="100"
+        android:title="@string/excel_exporter"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/csv_file_analysis"
+        android:orderInCategory="100"
+        android:title="@string/csv_file_analysis"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+</menu>
